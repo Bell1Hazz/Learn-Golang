@@ -4,14 +4,14 @@ import "fmt"
 
 func main() {
 	produk := "Laptop Gaming"
-	harga := 15000000
+	harga := 150000000
 	tersedia := true // Kita ubah jadi true untuk latihan ini
 
 	fmt.Println("Nama Produk:", produk)
 	fmt.Println("Harga: Rp", harga)
 
 	// 1. If-Else Sederhana (Cek Ketersediaan)
-	if tersedia == true {
+	if tersedia == false {
 		fmt.Println("Status: Silakan dipesan, stok tersedia!")
 	} else {
 		fmt.Println("Status: Maaf, stok habis.")
@@ -25,4 +25,6 @@ func main() {
 	} else {
 		fmt.Println("Kategori: Laptop Entry-Level / Murah")
 	}
+	//Pastikan isi dari if else selalu di barisan yang sama
+	//Jangan di barisan kurawal buka
 }
